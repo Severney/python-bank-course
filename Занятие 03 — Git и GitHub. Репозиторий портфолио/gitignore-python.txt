@@ -1,0 +1,27 @@
+# Служебные файлы Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Секреты — самая важная строка этого файла
+.env
+*.key
+secrets.json
+
+# Настройки редакторов
+.idea/
+.vscode/
+
+# Служебное от pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Мусор операционной системы
+.DS_Store
+Thumbs.db
